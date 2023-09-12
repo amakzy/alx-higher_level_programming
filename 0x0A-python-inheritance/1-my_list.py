@@ -10,7 +10,7 @@ Description:
 """
 
 class MyList(list):
-    """Inherits list"""
+    """Inherits my list"""
 
     def print_sorted(self):
         """Prints the list, but sorted (ascending sort)"""
