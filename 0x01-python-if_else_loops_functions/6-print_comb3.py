@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for num in range(1, 89):
-    if (num % 10 > num / 10):
-        print('{:02d}, '.format(num), end='')
-print(89)
+for i in range(0, 8):
+    for j in range(i + 1, 10):
+        print("{:d}{:d}".format(i, j), end=', ')
+print("{:d}{:d}".format(i + 1, j))
